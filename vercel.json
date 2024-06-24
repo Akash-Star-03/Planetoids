@@ -1,5 +1,5 @@
 {
     "rewrites":[
-        {"source":"/", "destination": "../Components/route directory"}
+        {"source":"/", "destination": "../Components/route directory/Home.html"}
     ]
 }
