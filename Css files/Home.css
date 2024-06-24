@@ -1,0 +1,142 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.logo {
+  width: 35%;
+  height: 35%;
+  padding: 0;
+  margin: 0;
+}
+.inputed{
+    border-radius: 50px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+}
+.space img {
+  max-width: 100%;
+  height: auto;
+}
+.wrapp{
+  display:flex;
+  flex:nowrap;
+  margin-left: 2px;
+}
+.navbar-brand {
+  display: inline;
+}
+.bg-green {
+  background-color: rgb(118, 216, 98);
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url("../Assets/plant01.png") no-repeat center center/cover;
+  background-size: cover;
+  overflow: hidden;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 2;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.info-item {
+  margin-bottom: 2rem;
+}
+.info-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+.info-text {
+  font-size: 1.2rem;
+}
+.text-green {
+  color: rgb(118, 216, 98);
+}
+.info-section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.info-box {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 1s ease, opacity 1s ease;
+  transform: scale(0.5);
+  opacity: 0;
+}
+.info-box.visible {
+  transform: scale(1);
+  opacity: 1;
+}
+.info-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+.info-text {
+  font-size: 1.5rem;
+}
+
+.counter {
+    font-size: 3rem;
+    color: #4CAF50;
+}
+.footer {
+    background-color: rgb(118, 216, 98);
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.footer .social-icons a {
+    color: black;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.footer .social-icons a:hover {
+    color: #ddd;
+}
+@media (max-width: 576px) {
+    .footer .social-icons {
+        flex-direction: row;
+        margin-top: 0.5rem;
+    }
+}

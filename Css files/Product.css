@@ -1,0 +1,109 @@
+
+.wrapp{
+    display:flex;
+    flex:nowrap;
+    margin-left: 2px;
+  }
+.content-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.content-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.content-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.product-section {
+    padding: 2rem 0;
+}
+.product-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+.card-custom img {
+    border-radius: 10px 10px 0 0;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-custom .card-body {
+    padding: 1rem;
+    text-align: center;
+}
+.card-custom .card-body h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.card-custom .card-body p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.card-custom .price {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.card-custom .btn-buy {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+}
+.hr{
+    color:green;
+    height: 5px;
+}
+.logos{
+    width: 200px;
+}
+.rounds{
+    border-radius: 50px;
+    border: 2px solid green;
+}
+
+.burger-menu {
+    position: fixed;
+    top: 31%;
+    left: 2%;
+    background-color:  green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+.burger-menu i {
+    color: white;
+    font-size: 1.5rem;
+}
+.icons-container {
+    position: fixed;
+    top: calc(30% + 60px);
+    left: 1.5%;
+    background-color: white;
+    
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 1rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+}
+.icons-container a i {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
