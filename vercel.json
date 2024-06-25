@@ -1,6 +1,0 @@
-{
-    "public":"./Components/route directory",
-    "rewrites":[
-        {"source":"/", "destination": "../Components/route directory/index.html"}
-    ]
-}
